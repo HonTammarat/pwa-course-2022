@@ -23,7 +23,7 @@ function Inputbox () {
 
 function App() {
   return (
-    <div className="App">
+    <div className="App col-5">
       <Userlist/>
       <Chat/>
       <Inputbox/>
