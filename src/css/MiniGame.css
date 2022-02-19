@@ -1,0 +1,27 @@
+
+
+.ball1{
+    background-color: white;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    color: black;
+    text-align: center;
+}
+
+.ball2{
+    background-color: black;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+}
+
+.minigame-page{
+    background-color: antiquewhite;
+    height: 100%;
+    width: 100%;
+}
