@@ -1,0 +1,17 @@
+.login-page{
+    background-color: indianred;
+    height: 100%;
+    width: 100%;
+}
+
+.logo{
+    background-image: url("logo192.png");
+    height: 192px;
+    width: 192px;
+    margin: auto;
+}
+
+.login{
+    text-align: center;
+    font-size: larger;
+}
