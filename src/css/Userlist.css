@@ -8,11 +8,13 @@
 }
 
 .userlist.closed {
-  width: 10px;
+  width: 33px;
+  background-color: rgb(235, 99, 99);
 }
 
 .userlist.open {
   width: 200px;
+  background-color: bisque;
 }
 
 .userlist .close-button {

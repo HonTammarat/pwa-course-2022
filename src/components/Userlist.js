@@ -3,14 +3,22 @@ import '../css/Userlist.css';
 
 function Userlist () {
   const [trayStatus, setTrayStatus] = useState("open");
+  const [xo,setXO] = useState("X");
 
   function onButtonClicked() {
-    // ex01 filling logic here
+    if(trayStatus === "open"){
+      setTrayStatus("closed");
+      setXO("O")
+    }
+    if(trayStatus === "closed"){
+      setTrayStatus("open");
+      setXO("X")
+    }
   }
 
   return (
     <div className={"userlist "+trayStatus}>
-      <div className="close-button" onClick={onButtonClicked}>x</div>
+      <div className="close-button" onClick={onButtonClicked}>{xo}</div>
     </div>
   )
 }
